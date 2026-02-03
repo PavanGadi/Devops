@@ -4,7 +4,7 @@ variable "instance_names" {
 }
 variable "image_id" {
   type        = string #optional
-  default     = "ami-09c813fb71547fc4f" #optional
+  default     = "ami-0220d79f3f480ecf5" #optional
   description = "RHEL-9 AMI ID" #optional
 }
 
