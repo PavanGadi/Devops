@@ -1,0 +1,32 @@
+# Example terraform.tfvars file
+# Uncomment and modify to customize your deployment
+
+/*
+aws_region = "us-east-1"
+
+environment_config = {
+  dev = {
+    instance_type = "t3.micro"
+    server_count  = 100
+    environment   = "dev"
+  }
+  test = {
+    instance_type = "t3.small"
+    server_count  = 100
+    environment   = "test"
+  }
+  prod = {
+    instance_type = "m5.large"
+    server_count  = 100
+    environment   = "prod"
+  }
+}
+
+# Update AMI ID based on your region and OS preference
+ami_id = "ami-09c813fb71547fc4f"
+
+# Update with your security group IDs if needed
+vpc_security_group_ids = ["sg-xxxxxxxxx"]
+
+tag_prefix = "aws-server"
+*/
