@@ -2,7 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Terraform/Count/.terraform" />
+      <excludeFolder url="file://$MODULE_DIR$/Terraform/EC2/.terraform" />
+      <excludeFolder url="file://$MODULE_DIR$/Terraform/Expense/.terraform" />
+      <excludeFolder url="file://$MODULE_DIR$/Terraform/Remote_State/.terraform" />
+      <excludeFolder url="file://$MODULE_DIR$/Terraform/Variables/.terraform" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
